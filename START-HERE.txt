@@ -1,0 +1,15 @@
+Travel Trip Planner - MERN source code
+
+Requires Node.js 22.12+ and a running MongoDB server.
+From the extracted travel-trip-planner folder:
+1. npm --prefix server ci
+2. npm --prefix client ci
+3. Copy server/.env.example to server/.env and set MONGO_URI.
+4. npm run build
+5. npm start
+6. Open http://127.0.0.1:3001
+
+Includes accounts, private trips, non-AI destination suggestions, and expense tracking.
+Nearby discovery requires internet access. Prices are supplied only where sources provide them; other entries link to details.
+Your database records, login sessions, node_modules, and private .env file are not included.
+See README.md for development commands and configuration.

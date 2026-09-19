@@ -1,0 +1,1 @@
+{"name":"travel-trip-planner","private":true,"scripts":{"build":"npm --prefix client run build","start":"npm --prefix server start","test":"npm --prefix server test"}}
